@@ -23,23 +23,23 @@ add_time("3:00 PM", "3:10")
 <br>#Returns: 6:10 PM</br>
 
 add_time("11:30 AM", "2:32", "Monday")
-#Returns: 2:02 PM, Monday
+<br>#Returns: 2:02 PM, Monday</br>
 
 add_time("11:43 AM", "00:20")
-#Returns: 12:03 PM
+<br>#Returns: 12:03 PM</br>
 
 add_time("10:10 PM", "3:30")
-#Returns: 1:40 AM (next day)
+<br>#Returns: 1:40 AM (next day)</br>
 
 add_time("11:43 PM", "24:20", "tueSday")
-#Returns: 12:03 AM, Thursday (2 days later)
+<br>#Returns: 12:03 AM, Thursday (2 days later)</br>
 
 add_time("6:30 PM", "205:12")
-#Returns: 7:42 AM (9 days later)
+<br>#Returns: 7:42 AM (9 days later)</br>
 
 Do not import any Python libraries. Assume that the start times are valid times. The minutes in the duration time will be a whole number less than 60, but the hour can be any whole number.
 
-Development
+<b>Development
 Write your code in time_calculator.py. For development, you can use main.py to test your time_calculator() function. Click the "run" button and main.py will run.
 
 Testing
