@@ -1,7 +1,7 @@
 # Time-Calculator
 
 <b>Time Calculator</b>
-<br>You will be working on this project with our Replit starter code.</br>
+<br>You will be working on this project with our [Replit starter code] (https://replit.com/@oagilliam/boilerplate-time-calculator#time_calculator.py).</br>
 
 Start by importing the project on Replit.
 Next, you will see a .replit window.
