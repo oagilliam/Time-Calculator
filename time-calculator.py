@@ -10,16 +10,16 @@ def add_time(start_time, duration, day = False):
     days_of_week = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 
     #Seperate everything before the colon
-    start_time_a = start_time.split(':')[0] # 2
-    duration_a = duration.split(':')[0] # 305
+    start_time_a = start_time.split(':')[0] 
+    duration_a = duration.split(':')[0] 
 
     #Seperate everything after the colon
-    start_time_NO_AM_PM = start_time.split()[0] # 2:15
-    start_time_b = start_time_NO_AM_PM.split(':')[1] #15
-    duration_b = duration.split(':')[1] # 10
+    start_time_NO_AM_PM = start_time.split()[0] 
+    start_time_b = start_time_NO_AM_PM.split(':')[1] 
+    duration_b = duration.split(':')[1] 
 
     #Find the AM or PM
-    am_or_pm = start_time.split()[1] #PM
+    am_or_pm = start_time.split()[1] 
 
     #Calculate the time
     total_hours = int(start_time_a) + int(duration_a)
