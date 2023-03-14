@@ -1,7 +1,7 @@
 # Time-Calculator
 
 <b>Time Calculator</b>
-You will be working on this project with our Replit starter code.
+<br>You will be working on this project with our Replit starter code.</br>
 
 Start by importing the project on Replit.
 Next, you will see a .replit window.
